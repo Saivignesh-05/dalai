@@ -115,9 +115,9 @@ You do NOT have to install all models, you can install one by one. Let's take a 
 
 Requires that you have docker installed and running.
 ```
-docker compose build
-docker compose run dalai npx dalai alpaca install 7B # or a different model
-docker compose up -d
+docker-compose build
+docker-compose run dalai npx dalai alpaca install 7B # or a different model
+docker-compose up -d
 ```
 
 This will dave the models in the `./models` folder
